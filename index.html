@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <title>Batman RPG</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/javascript/game.js"></script>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+   <div class="container-flex header-container">
+       <img class="logo" src="assets/images/logo.png">
+       <div id="musicControls" class="text-center">
+        <button class="btn btn-warning btn-xs theme-button">
+          <span class="glyphicon glyphicon-music"></span> Play Theme!</button>
+        <button class="btn btn-dark btn-xs pause-button">
+          <span class="glyphicon glyphicon-pause"></span> Pause Song</button>
+      </div>
+
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 character-section">
+        <section class="section-label"> Pick a Character</section>
+        <section id="select-character" ></section>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 character-section">
+        <section class="section-label">Your enemies are</section>
+        <section id="enemies-lists"></section>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 character-section">
+        <section class="section-label">Opponent</section>
+        <section id="opponent"></section>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 button-section">
+        <section class="section-label attak">Fight section</section>
+        <button id="button-attack" class="btn attack" value="attack">Attack</button>
+        <button id="button-restart" class="btn restart" value="restart">Restart</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 message-section">
+        <label class="message"></label>
+      </div>
+    </div>
+  </div>
+
+
+
+</body>
+</html>
