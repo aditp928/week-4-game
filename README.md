@@ -21,3 +21,11 @@ Here's how the app works:
 
 4. The player wins the game by defeating all enemy characters. The player loses the game the game if their character's `HP` falls to zero or below.
 
+**Choose a character**
+![start](/assets/images/start.png)
+
+**Remaining fighters have dynamically moves to the enemy section after character is selected**
+![character](/assets/images/pickedcharacter.png)
+
+**After the enemy is selected, the choosen enemy dynamically moves to the battle section**
+![enemyselected](/assets/images/enemyselected.png)
