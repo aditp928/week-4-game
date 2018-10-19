@@ -1,6 +1,8 @@
 # week-4-game
 A fun and interactive game for web browsers. Dynamically updating through the use of the JQuery library.
 
+This app practices the use of the jquery library and object oriented programming.
+
 Here's how the app works:
 
 * When the game starts, the player will choose a character by clicking on the fighter's picture. The player will fight as that character for the rest of the game.
